@@ -80,4 +80,3 @@ Import `data/cleaned_hr_attrition.csv`, rename the table to `Employees`, add the
 
 ## Limitations
 This is a synthetic, observational dataset. The analysis is descriptive and does not establish causation. Real HR decisions should be based on validated organizational data, employee feedback and appropriate statistical analysis.
-# HR-Employee-Attrition-Analysis
