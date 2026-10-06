@@ -1,0 +1,3 @@
+-- SQLite does not require CREATE DATABASE.
+-- The verified database file is supplied at: data/hr_attrition.db
+-- Open it with any SQLite client and run the analysis scripts in this folder.

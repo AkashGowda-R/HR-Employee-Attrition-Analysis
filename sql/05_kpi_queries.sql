@@ -1,0 +1,1 @@
+SELECT 'Total Employees' KPI,COUNT(*) Value FROM employees UNION ALL SELECT 'Employees Left',SUM(AttritionFlag) FROM employees UNION ALL SELECT 'Attrition Rate %',ROUND(100.0*SUM(AttritionFlag)/COUNT(*),2) FROM employees UNION ALL SELECT 'Average Salary',ROUND(AVG(MonthlyIncome),2) FROM employees UNION ALL SELECT 'Average Tenure',ROUND(AVG(YearsAtCompany),2) FROM employees;

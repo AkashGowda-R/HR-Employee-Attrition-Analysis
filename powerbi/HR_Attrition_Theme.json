@@ -1,0 +1,7 @@
+{
+  "name": "HR Attrition Clean Blue",
+  "dataColors": ["#2F75B5", "#5B9BD5", "#A5A5A5", "#70AD47", "#ED7D31", "#4472C4", "#FFC000"],
+  "background": "#FFFFFF",
+  "foreground": "#17365D",
+  "tableAccent": "#2F75B5"
+}
