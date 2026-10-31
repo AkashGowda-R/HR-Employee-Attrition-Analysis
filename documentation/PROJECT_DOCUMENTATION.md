@@ -29,11 +29,11 @@ The raw dataset contains a small number of intentionally preserved quality issue
 ## Analysis
 The project examines attrition by department, job role, overtime, salary range, age group, tenure group and satisfaction level.
 
+## Power BI report
+The interactive Power BI report has been created in Power BI Desktop, saved as `powerbi/HR_Attrition_Analysis.pbix` and committed to the GitHub repository. The dashboard screenshot is available at `dashboard/powerbi_dashboard.png`. Supporting model, DAX measures and layout documentation are included in `powerbi/`.
+
 ## Interpretation
 The analysis identifies associations in observational data. It does not prove that a particular factor causes employees to leave.
 
 ## Tools
 Excel, SQLite/SQL, Python/Pandas/Matplotlib, Power BI and Git/GitHub.
-
-## Power BI limitation
-The repository is Power BI-ready, but the native `.pbix` file must be saved from Power BI Desktop. The supplied Power BI documentation contains the model, DAX and dashboard specification.

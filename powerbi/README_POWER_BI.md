@@ -1,15 +1,15 @@
 # Power BI — HR Employee Attrition Analysis
 
 ## Status
-The project is Power BI-ready, but the native `.pbix` file is not included because Power BI Desktop is required to create/save it. The supplied CSV, DAX measures, model definition and dashboard specification are the source materials for the report.
+The Power BI report is complete. The native Power BI Desktop file is included in this repository at `powerbi/HR_Attrition_Analysis.pbix`, alongside the dashboard screenshot at `dashboard/powerbi_dashboard.png`.
 
-## Data source
-Import `../data/cleaned_hr_attrition.csv`. Rename the imported table to `Employees`.
+## Open the report
+Download `HR_Attrition_Analysis.pbix` from this folder and open it in Power BI Desktop. The cleaned CSV used by the report is available at `../data/cleaned_hr_attrition.csv`.
 
-## Recommended report pages
-Use one main page named **HR Attrition Overview**. Keep the report beginner-friendly and focused on the business question.
+## Data model
+The imported data table is named `Employees`. The supporting DAX measures, model notes and dashboard layout are documented in this folder.
 
-## Required verification before saving the PBIX
+## Verified KPI baseline
 - Total Employees = 1,470
 - Employees Left = 408
 - Attrition Rate = 27.8%
@@ -18,6 +18,3 @@ Use one main page named **HR Attrition Overview**. Keep the report beginner-frie
 
 ## Important interpretation rule
 The dataset is synthetic and observational. The dashboard shows associations and patterns, not proven causes of attrition.
-
-## Final filename
-Save the manually created report as `HR_Attrition_Analysis.pbix`.

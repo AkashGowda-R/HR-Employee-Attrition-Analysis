@@ -10,7 +10,7 @@ The cleaned dataset contains **1,470 employees**, of whom **408 left**, producin
 | Research & Development | 27.9% | Highest department rate, but very close to Sales |
 | Sales Representative | 32.6% | Highest rate among job roles with at least 10 employees |
 | Overtime = Yes | 36.1% | Higher observed attrition than the non-overtime group |
-| Salary <4K | 45.0% | Highest observed salary-band attrition |
+| Salary <4K | 45.1% | Highest observed salary-band attrition |
 | Age 18–24 | 52.5% | Highest observed age-group attrition |
 | Tenure 0–2 years | 42.7% | Highest observed tenure-group attrition |
 | Low job satisfaction | 35.2% | Higher observed attrition than higher-satisfaction groups |

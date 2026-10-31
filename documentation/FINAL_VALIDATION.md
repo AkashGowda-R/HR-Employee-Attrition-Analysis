@@ -10,16 +10,18 @@
 - Cleaned dataset missing values: **0**
 
 ## Cross-tool validation
-The cleaned CSV and supplied SQLite database produce the same headline KPIs. Excel analysis tables were regenerated from the cleaned CSV. Python validates the core row and attrition counts before producing its chart. SQL analysis queries execute successfully against the supplied database.
+The cleaned CSV and supplied SQLite database produce the same headline KPIs. Excel analysis tables were regenerated from the cleaned CSV. Python validates the core row and attrition counts before producing its chart. SQL analysis queries execute successfully against the supplied database. The Power BI report uses the same cleaned dataset and its displayed headline KPI values were checked against the verified baseline above.
 
-## Presentation improvements completed
+## Presentation and reporting completed
 - Rebuilt Excel workbook with consistent headers, widths, freezes and professional dashboard/KPI presentation.
 - Rebuilt dashboard preview with clear KPI cards and segment charts.
 - Tightened SQL documentation so data-quality validation is distinguished from the earlier CSV cleaning step.
 - Added reproducible Python validation and output generation.
-- Updated Power BI DAX/model/layout documentation to the verified KPI baseline.
-- Added a simple Power BI theme JSON.
+- Completed the Power BI report in Power BI Desktop and saved `powerbi/HR_Attrition_Analysis.pbix`.
+- Saved the dashboard screenshot as `dashboard/powerbi_dashboard.png`.
+- Added Power BI model, DAX, layout and theme documentation.
+- Committed and pushed the PBIX file to the GitHub repository (commit `c6a5d16`).
 - Removed claims that could imply causal relationships.
 
-## One external application limitation
-A native `.pbix` file cannot be generated in this environment because it is created/saved by Power BI Desktop. Everything required to create the report is included in `powerbi/` and the cleaned dataset is included in `data/`.
+## Limitations
+This is a synthetic, observational dataset created for portfolio/educational use. It contains no real employee PII. The analysis is descriptive and does not establish causation.

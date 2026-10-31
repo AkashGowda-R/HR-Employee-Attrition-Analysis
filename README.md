@@ -18,12 +18,19 @@ What employee segments show comparatively higher attrition rates, and what areas
 - Research & Development has the highest department attrition at approximately **27.9%**, only marginally above Sales.
 - Sales Representative has the highest job-role attrition among roles with at least 10 employees at approximately **32.6%**.
 - Employees working overtime show approximately **36.1%** attrition.
-- The `<4K` salary range shows approximately **45.0%** attrition.
+- The `<4K` salary range shows approximately **45.1%** attrition.
 - Employees aged 18–24 show approximately **52.5%** attrition.
 - Employees with 0–2 years at the company show approximately **42.7%** attrition.
 - The Low job-satisfaction group shows approximately **35.2%** attrition.
 
 These findings describe **associations**, not proven causes.
+
+## Power BI dashboard
+The Power BI report is completed and included in this repository as `powerbi/HR_Attrition_Analysis.pbix`.
+
+![Power BI Dashboard](dashboard/powerbi_dashboard.png)
+
+To explore the interactive report, download the PBIX file and open it in Power BI Desktop.
 
 ## Data
 The dataset is synthetic and created for portfolio/educational use. It contains no real employee PII.
@@ -68,15 +75,14 @@ Open `data/hr_attrition.db` in a SQLite client and run the SQL files in `sql/`.
 Open `excel/HR_Attrition_Analysis.xlsx`. The workbook contains the raw data, cleaned data, analysis tables, KPI summary and a presentation dashboard.
 
 ### Power BI
-Import `data/cleaned_hr_attrition.csv`, rename the table to `Employees`, add the measures from `powerbi/DAX_MEASURES.md`, and build the report according to `powerbi/DASHBOARD_LAYOUT.md`.
-
-**Native `.pbix` creation is the one step that cannot be generated outside Power BI Desktop.** The repository is otherwise Power BI-ready.
+Open `powerbi/HR_Attrition_Analysis.pbix` in Power BI Desktop. Supporting model, DAX and layout notes are available in the `powerbi/` folder.
 
 ## Documentation
 - `documentation/PROJECT_DOCUMENTATION.md` — project methodology and verified results
 - `documentation/DATA_DICTIONARY.md` — field definitions
 - `documentation/BUSINESS_INSIGHTS.md` — findings and recommendations
 - `documentation/INTERVIEW_PREPARATION.md` — project-specific interview preparation
+- `documentation/FINAL_VALIDATION.md` — validation summary
 
 ## Limitations
 This is a synthetic, observational dataset. The analysis is descriptive and does not establish causation. Real HR decisions should be based on validated organizational data, employee feedback and appropriate statistical analysis.
