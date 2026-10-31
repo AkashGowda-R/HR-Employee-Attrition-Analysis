@@ -1,7 +1,7 @@
-# Interview Preparation
+﻿# Interview Preparation
 
 ## Tell me about your project
-I built an HR Employee Attrition Analysis project to understand patterns associated with employees leaving an organization. I worked from a synthetic employee dataset, validated the raw data and used a cleaned analysis dataset across Excel, SQLite SQL and Python, then prepared the Power BI dashboard design and DAX measures. The analysis looked at attrition by department, job role, overtime, salary range, age group, tenure and job satisfaction. The dataset had 1,470 employees after cleaning, with 408 employees marked as having left, giving an overall attrition rate of 27.8%. I treated the findings as associations rather than causal conclusions because the data is observational and synthetic.
+I built an HR Employee Attrition Analysis project to understand patterns associated with employees leaving an organization. I worked from a synthetic employee dataset, validated the raw data and used a cleaned analysis dataset across Excel, SQLite SQL and Python, then built an interactive Power BI dashboard using DAX measures and slicers. The analysis looked at attrition by department, job role, overtime, salary range, age group, tenure and job satisfaction. The dataset had 1,470 employees after cleaning, with 408 employees marked as having left, giving an overall attrition rate of 27.8%. I treated the findings as associations rather than causal conclusions because the data is observational and synthetic.
 
 ## Core questions and answers
 
@@ -36,7 +36,7 @@ SQLite is simple for an entry-level portfolio because it requires no database se
 SELECT, WHERE, GROUP BY, HAVING, ORDER BY, CASE, aggregate functions, CTEs, JOINs and window functions.
 
 ### 11. What does the Power BI dashboard show?
-KPI cards for total employees, employees left, attrition rate, average salary and average tenure, plus charts for department, job role, age, salary, overtime, tenure and job satisfaction, with slicers for department, gender, job role, overtime and age group.
+KPI cards for total employees, employees left, attrition rate, average salary and average tenure, plus charts for department, job role, age, salary, overtime, tenure and job satisfaction, with slicers for department, job role, overtime, age group and salary range.
 
 ### 12. What is a DAX measure?
 A DAX measure is a calculation evaluated in the current filter context in Power BI. For example, Attrition Rate uses Employees Left divided by Total Employees, so slicers automatically recalculate the rate for the selected segment.
@@ -67,3 +67,4 @@ The dataset is synthetic, so the findings demonstrate analytical technique rathe
 ## Business questions
 
 **What would you investigate first?** I would prioritize high-attrition segments with meaningful employee counts, then investigate workload, tenure, compensation, satisfaction and management context before recommending interventions.
+
